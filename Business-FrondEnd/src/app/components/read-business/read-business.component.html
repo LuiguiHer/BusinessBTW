@@ -1,0 +1,17 @@
+
+<div *ngIf="business$ | async as business" class="container">
+   <mat-card class="card">
+    <mat-card-title> {{ business.tradeName }} </mat-card-title>
+    <mat-card-content>
+        <p><strong>{{ business.nit }}</strong></p>
+        <p>{{ business.owner }}</p>
+        <p>{{ business.phone }}</p>
+        <p>{{ business.city }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button routerLink="/listBusiness" mat-raised-button>Volver</button>
+    </mat-card-actions>
+  </mat-card> 
+</div>
+
+  

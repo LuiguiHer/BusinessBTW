@@ -1,0 +1,38 @@
+.tittleRead{
+    cursor: pointer;
+    background-color: rgb(89, 79, 179);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.container{
+    margin: 1% 20%;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.mat-mdc-form-field {
+    font-size: 16px;
+    width: 50%;
+    font-weight: 300;
+}
+
+.btn_info{
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+}
+.btn_plus{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.btn_edit{
+    cursor: pointer;
+    color:  rgb(147, 141, 238)
+}
+.btn_delete{
+    cursor: pointer;
+    color: rgb(255, 90, 90);
+}
